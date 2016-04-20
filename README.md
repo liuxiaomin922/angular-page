@@ -40,9 +40,9 @@ gulp安装 ：
  <1> 需要在 /static/js/app.js 里面添加一条路由配置
  
      .when('/other', {
-                    controller: 'pageCtr', #需要在/static/js/module/controller 路径下增加，           page.js（文件名称可以随便起，因为最后都要打包成一个js，但是为了方便开发，文件名建议和控制器名称一致）
-                    templateUrl: '/tpl/page2.html' #需要在/static/view/tpl 路径下增加 page2.html （文件名也最好有一定规律）
-                })
+          controller: 'pageCtr', 
+          templateUrl: '/tpl/page2.html'
+          })
  <2> 需要在/static/js/module/controller 路径下增加page.js
  
      var app=require("./indexApp");
